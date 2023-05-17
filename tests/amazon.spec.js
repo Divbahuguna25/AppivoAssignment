@@ -13,6 +13,7 @@ test.describe("Creating a testcase for searching iphone", () => {
 
     const [page1] = await Promise.all([page.waitForEvent("popup")]);
 
+    //opening the iphone page in the new tab
     await page1
       .locator("//span[@id='color_name_1'] //span //input[@name='1']")
       .click();
