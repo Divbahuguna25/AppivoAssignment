@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Creating a testcase for searching iphone", () => {
-  test("Searching for a black iphone", async ({ page }) => {
+  test("Searching for a midnight iphone 14 plus", async ({ page }) => {
     await page.goto("https://www.amazon.in/");
 
     // Search for "iphone 14"
